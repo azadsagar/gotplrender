@@ -102,8 +102,6 @@ func main() {
 		log.Fatalf("Failed to create output file: %v", err)
 	}
 	defer outputF.Close()
-
-	fmt.Println(templateVariables)
 	
 
 	// Execute template with variables
